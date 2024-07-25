@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Kalyan Maram's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="menu-icon" id="menu-icon">&#9776;</div>
+      <ul id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Work Experience</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="intro">
+      <h1>Sai Kalyan Maram</h1>
+      <p class="typewriter"></p>
+      <a href="mailto:saikalyan.maram@unh.edu">Contact Me</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Currently, working as a part-time Tech Consultant at the University of
+      New Hampshire. Passionate IT professional with a Master of Science in
+      Information Technology from the University of New Hampshire and a
+      Bachelor's in Electronics and Communications Engineering from VIT.
+    </p>
+    <p>
+      Certified as an Oracle Associate, I bring proficiency in Java, Python,
+      and JavaScript, coupled with hands-on experience in frameworks such as
+      React, Angular, and Spring Boot.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3><a href="#" target="_blank">Large Language Model Fine-Tuning</a></h3>
+      <p>
+        Developed a custom pre-trained model for university policy, improving
+        language recognition by 40%.
+      </p>
+    </div>
+    <div class="project">
+      <h3><a href="#" target="_blank">Build Own Programming Language (BROGRAM)</a></h3>
+      <p>
+        Designed and implemented a custom programming language "Brogram" using
+        lex and yacc.
+      </p>
+    </div>
+    <div class="project">
+      <h3><a href="#" target="_blank">Real Time Financial Advisor</a></h3>
+      <p>
+        Developed a RESTful API using Beam and serverless ML tools to deploy a
+        fine-tuned LLM for real-time financial advice.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Angular</li>
+      <li>Spring Boot</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="experience">
+      <h3>University of New Hampshire - Manchester, NH</h3>
+      <p><strong>Tech Consultant - Part Time</strong> (February 2024 - Present)</p>
+      <ul>
+        <li>Implemented application containerization using Docker, eliminating developer environment inconsistencies and streamlining deployment processes.</li>
+        <li>Facilitated personalized one-on-one tutoring sessions for 2 students in Integrated Computing, resulting in an 80% improvement in understanding and performance.</li>
+      </ul>
+    </div>
+    <div class="experience">
+      <h3>Deals Aggregator Platform - Remote (India)</h3>
+      <p><strong>Cloud Engineer Freelancer</strong> (July 2023 - August 2023)</p>
+      <ul>
+        <li>Improved backend scalability by 40% via migration from AWS Beanstalk to AWS EC2.</li>
+        <li>Achieved 20% hosting cost reduction and SSL certificate security by transitioning frontend application to Netlify.</li>
+      </ul>
+    </div>
+    <div class="experience">
+      <h3>Virtusa - Chennai, Tamil Nadu</h3>
+      <p><strong>Associate Engineer - Technology</strong> (May 2022 - July 2023)</p>
+      <ul>
+        <li>Led development of an e-commerce site using a monolithic architecture, incorporating Spring Boot and Angular, hosted on AWS EC2.</li>
+        <li>Conducted testing by executing 10 test cases for the add-to-cart feature, ensuring its reliability and functionality.</li>
+        <li>Identified and addressed 5 critical issues, resulting in a remarkable 30% system stability improvement.</li>
+        <li>Implemented an automated testing strategy, attaining a significant 25% reduction in testing time.</li>
+      </ul>
+    </div>
+    <div class="experience">
+      <h3>Data Engineer - Healthfirst Client</h3>
+      <ul>
+        <li>Collaborated with a team of 5 in the creation of 20 customized tables, translating client's user stories into effective database structures.</li>
+        <li>Generated insightful reports through data analysis on 4 tables, incorporating sample data into created tables based on user stories.</li>
+      </ul>
+    </div>
+    <div class="experience">
+      <h3>Virtusa - Chennai, Tamil Nadu</h3>
+      <p><strong>Intern - Delivery</strong> (January 2022 - March 2022)</p>
+      <ul>
+        <li>Received hands-on experience in React and Spring Boot through a 5-week training bootcamp.</li>
+        <li>Delivered a full-stack web application in Agile methodology, actively contributing to its completion while utilizing Git for version control.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="leadership">
+    <h2>Leadership</h2>
+    <div class="leadership">
+      <h3>Sha Pages - Hyderabad, India</h3>
+      <p><strong>Co-Founder</strong> (June 2022)</p>
+      <ul>
+        <li>Founded and led a team of 3 in developing more than 15 projects, designing web applications based on client requirements, and deploying to cloud services.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form" action="mailto:saikalyan.maram@unh.edu" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Sai Kalyan Maram. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuIcon = document.querySelector(".menu-icon");
+      const navUl = document.querySelector("nav ul");
+
+      menuIcon.addEventListener("click", function () {
+        navUl.classList.toggle("show");
+      });
+
+      document.querySelectorAll("nav ul li a").forEach((anchor) => {
+        anchor.addEventListener("click", function () {
+          navUl.classList.remove("show");
+        });
+      });
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+
+      const typewriterTexts = [
+        "Student Tech Consultant",
+        "MS IT Graduate",
+        "Full Stack Java Developer",
+        "Research on LLM-OS",
+      ];
+      let typewriterIndex = 0;
+      let charIndex = 0;
+      const typewriterElement = document.querySelector(".typewriter");
+
+      const type = () => {
+        if (charIndex < typewriterTexts[typewriterIndex].length) {
+          typewriterElement.textContent +=
+            typewriterTexts[typewriterIndex].charAt(charIndex);
+          charIndex++;
+          setTimeout(type, 100);
+        } else {
+          setTimeout(erase, 2000);
+        }
+      };
+
+      const erase = () => {
+        if (charIndex > 0) {
+          typewriterElement.textContent = typewriterElement.textContent.slice(
+            0,
+            -1
+          );
+          charIndex--;
+          setTimeout(erase, 50);
+        } else {
+          typewriterIndex = (typewriterIndex + 1) % typewriterTexts.length;
+          setTimeout(type, 200);
+        }
+      };
+
+      type();
+    });
+  </script>
+</body>
+</html>
