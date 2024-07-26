@@ -1,225 +1,1119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sai Kalyan Maram's Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="menu-icon" id="menu-icon">&#9776;</div>
-      <ul id="nav-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Work Experience</a></li>
-        <li><a href="#leadership">Leadership</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-W5HZRK2G");
+    </script>
+    <!-- End Google Tag Manager -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <section id="home">
-    <div class="intro">
-      <h1>Sai Kalyan Maram</h1>
-      <p class="typewriter"></p>
-      <a href="mailto:saikalyan.maram@unh.edu">Contact Me</a>
-    </div>
-  </section>
+    <title>Personal Portfolio</title>
+    <meta content="" name="descriptison" />
+    <meta content="" name="keywords" />
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Currently, working as a part-time Tech Consultant at the University of
-      New Hampshire. Passionate IT professional with a Master of Science in
-      Information Technology from the University of New Hampshire and a
-      Bachelor's in Electronics and Communications Engineering from VIT.
-    </p>
-    <p>
-      Certified as an Oracle Associate, I bring proficiency in Java, Python,
-      and JavaScript, coupled with hands-on experience in frameworks such as
-      React, Angular, and Spring Boot.
-    </p>
-  </section>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3><a href="#" target="_blank">Large Language Model Fine-Tuning</a></h3>
-      <p>
-        Developed a custom pre-trained model for university policy, improving
-        language recognition by 40%.
-      </p>
-    </div>
-    <div class="project">
-      <h3><a href="#" target="_blank">Build Own Programming Language (BROGRAM)</a></h3>
-      <p>
-        Designed and implemented a custom programming language "Brogram" using
-        lex and yacc.
-      </p>
-    </div>
-    <div class="project">
-      <h3><a href="#" target="_blank">Real Time Financial Advisor</a></h3>
-      <p>
-        Developed a RESTful API using Beam and serverless ML tools to deploy a
-        fine-tuned LLM for real-time financial advice.
-      </p>
-    </div>
-  </section>
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Java</li>
-      <li>Python</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Angular</li>
-      <li>Spring Boot</li>
-    </ul>
-  </section>
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <section id="experience">
-    <h2>Work Experience</h2>
-    <div class="experience">
-      <h3>University of New Hampshire - Manchester, NH</h3>
-      <p><strong>Tech Consultant - Part Time</strong> (February 2024 - Present)</p>
-      <ul>
-        <li>Implemented application containerization using Docker, eliminating developer environment inconsistencies and streamlining deployment processes.</li>
-        <li>Facilitated personalized one-on-one tutoring sessions for 2 students in Integrated Computing, resulting in an 80% improvement in understanding and performance.</li>
-      </ul>
-    </div>
-    <div class="experience">
-      <h3>Deals Aggregator Platform - Remote (India)</h3>
-      <p><strong>Cloud Engineer Freelancer</strong> (July 2023 - August 2023)</p>
-      <ul>
-        <li>Improved backend scalability by 40% via migration from AWS Beanstalk to AWS EC2.</li>
-        <li>Achieved 20% hosting cost reduction and SSL certificate security by transitioning frontend application to Netlify.</li>
-      </ul>
-    </div>
-    <div class="experience">
-      <h3>Virtusa - Chennai, Tamil Nadu</h3>
-      <p><strong>Associate Engineer - Technology</strong> (May 2022 - July 2023)</p>
-      <ul>
-        <li>Led development of an e-commerce site using a monolithic architecture, incorporating Spring Boot and Angular, hosted on AWS EC2.</li>
-        <li>Conducted testing by executing 10 test cases for the add-to-cart feature, ensuring its reliability and functionality.</li>
-        <li>Identified and addressed 5 critical issues, resulting in a remarkable 30% system stability improvement.</li>
-        <li>Implemented an automated testing strategy, attaining a significant 25% reduction in testing time.</li>
-      </ul>
-    </div>
-    <div class="experience">
-      <h3>Data Engineer - Healthfirst Client</h3>
-      <ul>
-        <li>Collaborated with a team of 5 in the creation of 20 customized tables, translating client's user stories into effective database structures.</li>
-        <li>Generated insightful reports through data analysis on 4 tables, incorporating sample data into created tables based on user stories.</li>
-      </ul>
-    </div>
-    <div class="experience">
-      <h3>Virtusa - Chennai, Tamil Nadu</h3>
-      <p><strong>Intern - Delivery</strong> (January 2022 - March 2022)</p>
-      <ul>
-        <li>Received hands-on experience in React and Spring Boot through a 5-week training bootcamp.</li>
-        <li>Delivered a full-stack web application in Agile methodology, actively contributing to its completion while utilizing Git for version control.</li>
-      </ul>
-    </div>
-  </section>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <section id="leadership">
-    <h2>Leadership</h2>
-    <div class="leadership">
-      <h3>Sha Pages - Hyderabad, India</h3>
-      <p><strong>Co-Founder</strong> (June 2022)</p>
-      <ul>
-        <li>Founded and led a team of 3 in developing more than 15 projects, designing web applications based on client requirements, and deploying to cloud services.</li>
-      </ul>
+      gtag("config", "UA-169007209-3");
+    </script>
+
+    <!-- =======================================================
+  * Template Name: Personal - v2.1.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-W5HZRK2G"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- ======= Header ======= -->
+    <header id="header" class="header-tops">
+      <div class="container">
+        <h1><a href="index.html">Sai Kalyan Maram</a></h1>
+        <h2 style="color: #fff">
+          Currently <span class="typing" style="color: #12d640"></span>
+        </h2>
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active">
+              <a href="#header"> <span>Home</span></a>
+            </li>
+            <li>
+              <a href="#about"><span>About</span></a>
+            </li>
+            <li>
+              <a href="#education"> <span>Education</span></a>
+            </li>
+            <li>
+              <a href="#experience"> <span>Experience</span></a>
+            </li>
+            <li>
+              <a href="#portfolio"> <span>Projects</span></a>
+            </li>
+            <li>
+              <a href="#skills"> <span>Skills</span></a>
+            </li>
+            <!-- <li><a href="https://drive.google.com/file/d/1pT-Nk6AxY9ZOWBizuDb4htA3IiUF_fSe/view?usp=sharing" target="_blank"> <span>Resume</span></a></li> -->
+            <li>
+              <a href="#contacts"> <span>Contact</span></a>
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/saikalyanmaram/"
+            target="_blank"
+            class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/kalyansai1420"
+            target="_blank"
+            class="github"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="mailto:saikalyan.maram@gmail.com"
+            target="_blank"
+            class="google"
+            ><i class="bx bxl-google"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <!-- ======= About Me ======= -->
+      <div class="about-me container">
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p>
+              Focused and enthusiastic developer with a keen interest in
+              software development and artificial intelligence. By comprehensive
+              exposure to the underlying concepts and applying them vividly to
+              various projects, my love for these domains came into being. I am
+              a passionate individual who thrives to build and apply algorithms
+              to solve real-world industry problems.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>Birthday:</strong> April 01, 2000
+                  </li>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>Phone:</strong> +1 (603) 210-7952
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>City:</strong> Manchester, NH
+                  </li>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>Email:</strong> saikalyan.maram@unh.edu
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me -->
+
+      <!-- ======= Interests ======= -->
+      <div class="interests container">
+        <div class="section-title">
+          <h2>Interests</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="ri-global-line" style="color: #ffbb2c"></i>
+              <h3>Web Development</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-code-s-slash-fill" style="color: #28a745"></i>
+              <h3>Software Engineering</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-fullscreen-line" style="color: #e80368"></i>
+              <h3>Full Stack Engineering</h3>
+              <!-- <h3>Computer Vision</h3> -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="ri-robot-line" style="color: #1c7d32"></i>
+              <h3>AI Engineer</h3>
+              <!-- <h3>Natural Language Processing</h3> -->
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-code-s-slash-fill" style="color: #28a745;"></i>
+            <h3>Software Engineering</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
+            <h3>Visualization</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-file-list-3-line" style="color: #47aeff;"></i>
+            <h3>Algorithms</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-image-line" style="color: #ffc107;"></i>
+            <h3>Image Processing</h3>
+          </div>
+        </div> -->
+        </div>
+      </div>
+      <!-- End Interests -->
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Education Section ======= -->
+    <section id="education" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Education</h2>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-12"
+            data-aos="fade-up"
+            style="display: inline-block"
+          >
+            <div
+              class="col-md-4 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              style="
+                padding: 0px 0px;
+                padding-bottom: 5px;
+                display: inline-block;
+              "
+            >
+              <img
+                src="assets/img/education/unh.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <p style="text-align: left; color: #fff; padding: 5px 10px">
+                <em>MS in Information Technology</em>
+              </p>
+              <h5 style="text-align: left; padding: 0px 10px">
+                August 2023 - Present
+              </h5>
+              <h6 style="text-align: left; color: #fff; padding: 0px 10px">
+                Relevant Coursework
+              </h6>
+              <ul style="text-align: left; color: #fff">
+                <li>Practical AI</li>
+                <li>Full Stack Development</li>
+                <!-- <li>Programming Languages</li>
+                <li>Networking Technologies</li> -->
+              </ul>
+            </div>
+            <div
+              class="col-md-4 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              style="
+                padding: 0px 0px;
+                padding-bottom: 5px;
+                display: inline-block;
+              "
+            >
+              <img
+                src="assets/img/education/vit.png"
+                class="img-fluid"
+                alt=""
+              />
+              <p style="text-align: left; color: #fff; padding: 5px 10px">
+                <em>B.Tech. in Electronics and Communication Engineering</em>
+              </p>
+              <h5 style="text-align: left; padding: 0px 10px">
+                June 2018 - May 2022
+              </h5>
+              <h6 style="text-align: left; color: #fff; padding: 0px 10px">
+                Relevant Coursework
+              </h6>
+              <ul style="text-align: left; color: #fff">
+                <li>Machine Learning</li>
+                <li>Object-Oriented Programming</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>Online Certification</h2>
+      </div>
+
+      <div class="row portfolio-container" style="position: relative; height: 437.75px;">
+
+         <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/stanford.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Machine Learning</h4>
+              <div class="portfolio-links">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/2BTJ636Q2E93?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate/" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+           </div>
+          </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 370px; top: 0px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/stanford.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Algorithms-Design and Analysis</h4>
+              <div class="portfolio-links">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/6THRQXYE9EHZ?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 740px; top: 0px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/ucsd.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Algorithmic Toolbox</h4>
+              <div class="portfolio-links">
+                <a href="https://coursera.org/share/98bbfb990484fac370d5e5ed14334ea4" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 0px; top: 218.875px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/ibm.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Deep Learning with Tensorflow</h4>
+              <div class="portfolio-links">
+                <a href="https://drive.google.com/file/d/1FSwPt19EzY_tpvqkE6igtLf3gccKcssC/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 370px; top: 218.875px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/ibm.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Machine Learning with Python</h4>
+              <div class="portfolio-links">
+                <a href="https://drive.google.com/file/d/1gimySw_NPzCJ54dqZ2j2wYyz-JDOg-S0/view?usp=sharing" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-project" style="position: absolute; left: 740px; top: 218.875px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/certification/dai.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Neural Networks and Deep Learning</h4>
+              <div class="portfolio-links">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/ELXZ6FE2BU7X?utm_medium=certificate&amp;utm_source=link&amp;utm_campaign=copybutton_certificate/" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </section>
+    </div> -->
+    </section>
+    <!-- End Education Section -->
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <form id="contact-form" action="mailto:saikalyan.maram@unh.edu" method="post" enctype="text/plain">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
-      
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    <!-- Start Experience Section -->
 
-  <footer>
-    <p>&copy; 2024 Sai Kalyan Maram. All rights reserved.</p>
-  </footer>
+    <section id="experience" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Experience</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h4 style="text-align: left">
+                <a href="https://www.unh.edu/" style="color: #12d640"
+                  >University of New Hampshire - Manchester, NH</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">February 2024 - Present</h5>
+              <p style="text-align: left; color: #fff">
+                <em>Tech Consultant/Class Assistant - Part Time</em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                  Implemented application containerization using Docker,
+                  eliminating developer environment inconsistencies and
+                  streamlining deployment processes.
+                </li>
+                <li>
+                  Facilitated personalized one-on-one tutoring sessions for 2
+                  students in Integrated Computing, resulting in an 80%
+                  improvement in understanding and performance.
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h4 style="text-align: left">
+                <a
+                  href="https://www.dealsaggregatorplatform.com/"
+                  style="color: #12d640"
+                  >Deals Aggregator Platform - Remote (India)</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">July 2023 - August 2023</h5>
+              <p style="text-align: left; color: #fff">
+                <em>Cloud Engineer Freelancer</em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                  Improved backend scalability by 40% via migration from AWS
+                  Beanstalk to AWS EC2.
+                </li>
+                <li>
+                  Achieved 20% hosting cost reduction and SSL certificate
+                  security by transitioning frontend application to Netlify.
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h4 style="text-align: left">
+                <a href="https://www.virtusa.com/" style="color: #12d640"
+                  >Virtusa - Chennai, Tamil Nadu</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">May 2022 - July 2023</h5>
+              <p style="text-align: left; color: #fff">
+                <em>Associate Engineer - Technology</em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                  Led development of an e-commerce site using a monolithic
+                  architecture, incorporating Spring Boot and Angular, hosted on
+                  AWS EC2.
+                </li>
+                <li>
+                  Conducted testing by executing 10 test cases for the
+                  add-to-cart feature, ensuring its reliability and
+                  functionality.
+                </li>
+                <li>
+                  Identified and addressed 5 critical issues, resulting in a
+                  remarkable 30% system stability improvement.
+                </li>
+                <li>
+                  Implemented an automated testing strategy, attaining a
+                  significant 25% reduction in testing time.
+                </li>
+              </ul>
+              <p style="text-align: left; color: #fff">
+                <em>Healthfirst - Data Engineer</em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                  Collaborated with a team of 5 in the creation of 20 customized
+                  tables, translating client's user stories into effective
+                  database structures.
+                </li>
+                <li>
+                  Generated insightful reports through data analysis on 4
+                  tables, incorporating sample data into created tables based on
+                  user stories.
+                </li>
+                
+              </ul>
+            </div>
+            
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h4 style="text-align: left">
+                <a href="https://www.virtusa.com/" style="color: #12d640"
+                  >Virtusa - Chennai, Tamil Nadu</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">January 2022 - March 2022</h5>
+              <p style="text-align: left; color: #fff">
+                <em>Intern - Delivery</em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                  Received hands-on experience in React and Spring Boot through
+                  a 5-week training bootcamp.
+                </li>
+                <li>
+                  Delivered a full-stack web application in Agile methodology,
+                  actively contributing to its completion while utilizing Git
+                  for version control.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const menuIcon = document.querySelector(".menu-icon");
-      const navUl = document.querySelector("nav ul");
+    <!-- End Experience Section -->
 
-      menuIcon.addEventListener("click", function () {
-        navUl.classList.toggle("show");
+    <!-- Start Project Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-course">Course Projects</li>
+              <li data-filter=".filter-backend">Backend Projects</li>
+              <li data-filter=".filter-frontend">Frontend Projects</li>
+              <li data-filter=".filter-java">Java Projects</li>
+              <li data-filter=".filter-ai">AI Projects</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-course filter-backend">
+            <center><h4>GraphQL Server with Apollo</h4></center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/graphql-thumbnail.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="#"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-course">
+            <center><h4>Brogram</h4></center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/brogram-thumbnail.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="#"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-backend filter-java">
+            <center><h4>Library Management System</h4></center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/lms-thumbnail.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="#"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-backend filter-java">
+            <center><h4>Real Estate Server</h4></center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/re-thumbnail.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="#"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-backend filter-java">
+            <center><h4>Deals Aggregator Server</h4></center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/dd-thumbnail.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="#"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-course filter-ai">
+            <center><h4>LLM Fine-Tuning</h4></center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/llm-thumbnail.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="#"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
+            <center><h4>Real Time Financial Advisor</h4></center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/recommender.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/recommender.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+            
+            <center><h4>Resume Section Classifier</h4></center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/resume.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Resume Section Classifier</h4>
+                <div class="portfolio-links">
+                  <a
+                    href="projects/resume.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+            <center><h4>Video Description Generator</h4></center>
+            <div class="portfolio-wrap">
+              <img src="assets/img/project/vdg.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/vdg.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center><h4>ML-DL Web-App</h4></center>
+            <div class="portfolio-wrap">
+              <img src="assets/img/project/ml.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/ml.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+            
+            <center><h4>Image Generator</h4></center>
+            <div class="portfolio-wrap">
+              <img src="assets/img/project/gan.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/gan.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- End Project Section -->
+
+    <!-- Start Skills Section -->
+
+    <section id="skills" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              style="background: #fff"
+            >
+              <h4 style="text-align: left; color: #09203a">
+                Languages
+              </h4>
+              <p style="text-align: left">
+                <img
+                  src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg"
+                  alt="vectorlogo.zone"
+                  height="50"
+                  width="150"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg"
+                  alt="vectorlogo.zone"
+                  height="50"
+                  width="120"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                  alt="upload.wikimedia.org"
+                  height="60"
+                  width="90"
+                />
+                
+              </p>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="lefade-up"
+              data-aos-delay="100"
+              style="background: #fff"
+            >
+              <h4 style="text-align: left; color: #09203a">Frameworks</h4>
+              <p style="text-align: left">
+                <img
+                  src="https://www.vectorlogo.zone/logos/springio/springio-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/angular/angular-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <!-- <img
+                  src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+                  alt="upload.wikimedia.org"
+                  width="90"
+                  height="70"
+                /> -->
+              </p>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="lefade-up"
+              data-aos-delay="100"
+              style="background: #fff"
+            >
+              <h4 style="text-align: left; color: #09203a">Databases</h4>
+              <p style="text-align: left">
+                <img
+                  src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg"
+                  alt="vectorlogo.zone"
+                  height="70"
+                  width="130"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg"
+                  alt="vectorlogo.zone"
+                  height="50"
+                  width="190"
+                />
+              </p>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="lefade-up"
+              data-aos-delay="100"
+              style="background: #fff"
+            >
+              <h4 style="text-align: left; color: #09203a">Tools</h4>
+              <p style="text-align: left">
+                <img
+                  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Skills Section -->
+
+    <!-- Start Links section -->
+    <section id="links" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resume & Links</h2>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-3 mt-4 mt-md-0 icon-box"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <a
+              href="https://drive.google.com/file/d/1iHBNV2UkH5LkhAP-1hYRZ2Ez_BQ6g4S7/view?usp=sharing"
+              target="_blank"
+              ><div class="icon"><i class="icofont-page"></i></div
+            ></a>
+            <h4 class="title">
+              <a
+                href="https://drive.google.com/file/d/1iHBNV2UkH5LkhAP-1hYRZ2Ez_BQ6g4S7/view?usp=sharing"
+                target="_blank"
+                >Resume</a
+              >
+            </h4>
+            <p class="description" style="color: #fff">
+              The link contains downloadable resume
+            </p>
+          </div>
+          <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up">
+            <a
+              href="https://github.com/rajaprerak/LeetCode_Problems"
+              target="_blank"
+              ><div class="icon"><i class="icofont-link"></i></div
+            ></a>
+            <h4 class="title">
+              <a
+                href="https://github.com/rajaprerak/LeetCode_Problems"
+                target="_blank"
+                >LeetCode Repository</a
+              >
+            </h4>
+            <p class="description" style="color: #fff">
+              The github repository contains leetcode problems solution in
+              python.
+            </p>
+          </div>
+          <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://techingenious.herokuapp.com/" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
+          <h4 class="title"><a href="https://techingenious.herokuapp.com/" target="_blank">Blog</a></h4>
+          <p class="description" style="color:#fff;">Blog containing articles on AI, coding, development</p>
+        </div> -->
+        </div>
+      </div>
+    </section>
+    <!--End Links Section -->
+
+    <!-- Start Contact Section -->
+
+<section id="contacts" class="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2>Contact</h2>
+    </div>
+
+    <div class="row mt-2">
+      <div class="col-md-6 d-flex align-items-stretch">
+        <div class="info-box">
+          <i class="bx bx-map"></i>
+          <h3>My Address</h3>
+          <p>Manchester, NH</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+        <div class="info-box">
+          <i class="bx bx-share-alt"></i>
+          <h3>Social Profiles</h3>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/saikalyanmaram"
+              target="_blank"
+              class="linkedin"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/kalyansai1420"
+              target="_blank"
+              class="github"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="mailto:saikalyan.maram@unh.edu"
+              target="_blank"
+              class="google"
+              ><i class="bx bxl-google"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mt-4 d-flex align-items-stretch">
+        <div class="info-box">
+          <i class="bx bx-envelope"></i>
+          <h3>Email</h3>
+          <p>saikalyan.maram@unh.edu</p>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 d-flex align-items-stretch">
+        <div class="info-box">
+          <i class="bx bx-phone-call"></i>
+          <h3>Contact</h3>
+          <p>+1 (603) 210-7952</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- End Contact Section -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script type="text/javascript">
+      var typed = new Typed(".typing", {
+        strings: ["Learning software developing","Research on LLM-OS","Practicing Boxing"],
+        loop: true,
+        typeSpeed: 65,
+        backSpeed: 65,
       });
+    </script>
 
-      document.querySelectorAll("nav ul li a").forEach((anchor) => {
-        anchor.addEventListener("click", function () {
-          navUl.classList.remove("show");
-        });
-      });
-
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-
-          document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
-          });
-        });
-      });
-
-      const typewriterTexts = [
-        "Student Tech Consultant",
-        "MS IT Graduate",
-        "Full Stack Java Developer",
-        "Research on LLM-OS",
-      ];
-      let typewriterIndex = 0;
-      let charIndex = 0;
-      const typewriterElement = document.querySelector(".typewriter");
-
-      const type = () => {
-        if (charIndex < typewriterTexts[typewriterIndex].length) {
-          typewriterElement.textContent +=
-            typewriterTexts[typewriterIndex].charAt(charIndex);
-          charIndex++;
-          setTimeout(type, 100);
-        } else {
-          setTimeout(erase, 2000);
-        }
-      };
-
-      const erase = () => {
-        if (charIndex > 0) {
-          typewriterElement.textContent = typewriterElement.textContent.slice(
-            0,
-            -1
-          );
-          charIndex--;
-          setTimeout(erase, 50);
-        } else {
-          typewriterIndex = (typewriterIndex + 1) % typewriterTexts.length;
-          setTimeout(type, 200);
-        }
-      };
-
-      type();
-    });
-  </script>
-</body>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
